@@ -26,14 +26,14 @@ int main(){
     string input;
 
     while(true){
-        cout << "원하는 출력결과를 입력해주세요(종료 키: 0): a(unshaded), b(flatshading), c(gouraudshading), d(phongshading)" << endl; 
+        cout << "Please enter the output result(exit: 0): a(unshaded), b(flatshading), c(gouraudshading), d(phongshading)" << endl; 
         cin >> input;
         
         glfwInit();
         GLFWwindow* window;
         
         if (1 != input.length()){
-            cout << "잘못 입력하셨습니다. 다시 입력해주세요!" << endl; 
+            cout << "You entered incorrectly. Please re-enter!" << endl; 
             continue;
         }
         else{
