@@ -9,11 +9,11 @@ Visual Studio Code 설치 및 아래의 2개 확장 설치 필요
 
 + CMake
 
-![CMake](https://github.com/bessrabel/computer_graphics-hw2/blob/main/readmePng/cmake.PNG)
+![CMake](https://github.com/bessrabel/computer_graphics-hw3/blob/main/readmePng/cmake.PNG)
 
 + CMake Tools
 
-![CMake Tools](https://github.com/bessrabel/computer_graphics-hw2/blob/main/readmePng/cmakeTools.PNG)
+![CMake Tools](https://github.com/bessrabel/computer_graphics-hw3/blob/main/readmePng/cmakeTools.PNG)
 
 #### 2. g++
 Using GCC with MinGW
@@ -67,7 +67,7 @@ README.md 파일 이미지 첨부를 위한 폴더
 2. 명령창(F1 단축키)으로 CMake:configure 명령 선택하여 운영체제에 맞는 컴파일러 도구(gcc 등) 선택
 3. 다시 command를 입력할 수 있는 명령창을 열고 CMake:Build로 빌드(이때 CMakeList.txt 파일을 참고하여 자동으로 빌드됨)
 4. 마지막으로 디버그(명령창 CMake:dubug or ctrl+ F5)하여 실행 결과를 확인
-5. 실행 시 실행 터미널(실행 0창)에 '원하는 출력결과를 입력해주세요(종료 키: 0): a(unshaded), b(flatshading), c(gouraudshading), d(phongshading)'라는 문구가 뜨면 원하는 출력결과 입력
+5. 실행 시 실행 터미널(실행 0창)에 'Please enter the output result(exit: 0): a(unshaded), b(flatshading), c(gouraudshading), d(phongshading)'라는 문구가 뜨면 원하는 출력결과 입력
     ex) a -> a(unshaded)결과 창 출력
 ```
 
@@ -76,22 +76,26 @@ README.md 파일 이미지 첨부를 위한 폴더
 ### result
 
 + unshaded
-![input_a](https://github.com/bessrabel/computer_graphics-hw2/blob/main/readmePng/unshaded.png)
+  
+![input_a](https://github.com/bessrabel/computer_graphics-hw3/blob/main/readmePng/input_a.PNG)
 
-![unshaded](https://github.com/bessrabel/computer_graphics-hw2/blob/main/readmePng/unshaded.png)
+![unshaded](https://github.com/bessrabel/computer_graphics-hw3/blob/main/screenshot/a_unshaded.PNG)
 
 + flatshading
-![input_b](https://github.com/bessrabel/computer_graphics-hw2/blob/main/readmePng/unshaded.png)
+  
+![input_b](https://github.com/bessrabel/computer_graphics-hw3/blob/main/readmePng/input_b.PNG)
 
-![flatshading](https://github.com/bessrabel/computer_graphics-hw2/blob/main/readmePng/unshaded.png)
+![flatshading](https://github.com/bessrabel/computer_graphics-hw3/blob/main/screenshot/b_flatshading.PNG)
 
 + gouraudshading
-![input_c](https://github.com/bessrabel/computer_graphics-hw2/blob/main/readmePng/unshaded.png)
+  
+![input_c](https://github.com/bessrabel/computer_graphics-hw3/blob/main/readmePng/input_c.PNG)
 
-![gouraudshading](https://github.com/bessrabel/computer_graphics-hw2/blob/main/readmePng/unshaded.png)
+![gouraudshading](https://github.com/bessrabel/computer_graphics-hw3/blob/main/screenshot/c_gouraudshading.PNG)
 
 + phongshading
-![input_d](https://github.com/bessrabel/computer_graphics-hw2/blob/main/readmePng/unshaded.png)
+  
+![input_d](https://github.com/bessrabel/computer_graphics-hw3/blob/main/readmePng/input_d.PNG)
 
-![phongshading](https://github.com/bessrabel/computer_graphics-hw2/blob/main/readmePng/unshaded.png)
+![phongshading](https://github.com/bessrabel/computer_graphics-hw3/blob/main/screenshot/d_phongshading.PNG)
  
