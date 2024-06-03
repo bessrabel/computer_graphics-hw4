@@ -29,6 +29,11 @@ add_custom_command(TARGET MyExecutable POST_BUILD
         ${CMAKE_SOURCE_DIR}/lib/glfw3.dll
         $<TARGET_FILE_DIR:MyExecutable>
 )
+add_custom_command(TARGET MyExecutable POST_BUILD
+    COMMAND ${CMAKE_COMMAND} -E copy
+        ${CMAKE_SOURCE_DIR}/data/bunny.obj
+        $<TARGET_FILE_DIR:MyExecutable>
+)
 
 # 빌드 결과물 설정
 set_target_properties(MyExecutable PROPERTIES RUNTIME_OUTPUT_DIRECTORY ${CMAKE_SOURCE_DIR}/build)
